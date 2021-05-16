@@ -376,7 +376,7 @@ m.facebook.com,mbasic.facebook.com##div[data-ft]:has(a[href*="[is_sponsored]=1"]
 m.facebook.com,mbasic.facebook.com##div[data-ft]:has(a[href*="is_sponsored=1"])
 m.facebook.com,mbasic.facebook.com##div[data-ft]:has(div a[href*="/friends/center/"])
 m.facebook.com,mbasic.facebook.com##div[data-ft]:has(div a[href*="/groups/?ref=category_discover_landing"])
-m.facebook.com,mbasic.facebook.com##div[data-ft]:has(span:has-text(/Sponsored/))
+m.facebook.com,mbasic.facebook.com##div[data-ft]:has(span:has-text(/Sponzorované/))
 m.facebook.com,mbasic.facebook.com##div[data-ft]:has(table td div:has(a[href*="origin=feed_pyml"]))
 m.facebook.com,mbasic.facebook.com##div[id*="u_0_"] table:has(td a[href*="/profilepicframes/"])
 m.facebook.com,mbasic.facebook.com##div[role="article"] div:has(table a[href*="mbasic_feed_post_like_chaining"])
@@ -384,7 +384,7 @@ m.facebook.com,mbasic.facebook.com##div[role="article"] div:has(table a[href*="m
 m.facebook.com,mbasic.facebook.com##div[role="article"] table[role="presentation"]:has(td a[href*="/profilepicframes"])
 m.facebook.com,mbasic.facebook.com##div[role="article"]:has(div a[href*="/friends/center/"])
 m.facebook.com,mbasic.facebook.com##div[role="article"]:has(iframe[src*="/xti.php?"])
-m.facebook.com,mbasic.facebook.com##div[role="article"]:has(span:has-text(/Sponsored/))
+m.facebook.com,mbasic.facebook.com##div[role="article"]:has(span:has-text(/Sponzorované/))
 m.facebook.com,mbasic.facebook.com##table td#mEventsDashboard #events_dashboard_activity_feed:has(a[href*="suggestion_feed_unit"])
 m.facebook.com,mtouch.facebook.com,touch.facebook.com###MNewsFeed section article .story_body_container div[data-ft] div div[data-store*="share_id"] .story_body_container div[data-ft] div:has(.scrollArea:has(a[href*="/services?"]))
 m.facebook.com,mtouch.facebook.com,touch.facebook.com###MNewsFeed section article .story_body_container div[data-ft] div:has(.scrollArea:has(a[href*="/commerce/products/"]))
@@ -496,7 +496,7 @@ www.facebook.com##div[aria-label="Gaming"][role="main"] div[class] > h2[dir]:has
 www.facebook.com##div[aria-label="Gaming"][role="navigation"] div[class]> h2[dir]:has(span div[class]> a[href*="SUGGESTED"]):upward(8)
 www.facebook.com##div[data-pagelet="ChatTab"] [data-testid="Keycommand_wrapper_ModalLayer"] [role="tablist"] [aria-selected][role="tab"] span[dir]:has-text(/Suggested/):upward(1)
 www.facebook.com##div[data-pagelet="GroupFeed"] div[class] > div[aria-label="Create Room"]:has(span[dir]):upward(6)
-www.facebook.com##div[data-pagelet="RightRail"] div[class] h3[dir]:has(span[dir]:has-text(/Sponsored/)):upward(7)
+www.facebook.com##div[data-pagelet="RightRail"] div[class] h3[dir]:has(span[dir]:has-text(/Sponzorované/)):upward(7)
 www.facebook.com##div[data-pagelet="TahoeVideo"] div[data-instancekey] div[role="presentation"] div[class] > span[dir]:has-text(Top videos):upward(3)
 www.facebook.com##div[data-pagelet="page"] div[role="main"] div[class] > [style] span[dir]:has-text(/Friends and /):upward(3)
 www.facebook.com##div[data-pagelet="page"] div[role="main"] div[class] > [style] span[dir]:has-text(Top fans):upward(3)
@@ -533,7 +533,7 @@ www.facebook.com##div[aria-label="Gaming"][role="main"] div[class] > h2[dir]:has
 www.facebook.com##div[aria-label="Gaming"][role="navigation"] div[class]> h2[dir]:has(span div[class]> a[href*="SUGGESTED"]):upward(8):remove()
 www.facebook.com##div[data-pagelet="ChatTab"] [data-testid="Keycommand_wrapper_ModalLayer"] [role="tablist"] [aria-selected][role="tab"] span[dir]:has-text(/Suggested/):upward(1):remove()
 www.facebook.com##div[data-pagelet="CometMarketplaceHomeContentContainer"] [data-pagelet="StreamingBrowseFeed"] [data-pagelet="BrowseFeedUpsell_0"]:remove()
-www.facebook.com##div[data-pagelet="RightRail"] div[class] h3[dir]:has(span[dir]:has-text(/Sponsored/)):upward(7):remove()
+www.facebook.com##div[data-pagelet="RightRail"] div[class] h3[dir]:has(span[dir]:has-text(/Sponzorované/)):upward(7):remove()
 www.facebook.com##div[data-pagelet="page"] [role="navigation"] div[data-visualcompletion] a[href*="/pages/?category=top"]:remove()
 !
 ! CSS Modification
@@ -566,7 +566,7 @@ facebook.com##div[role="article"]:has(div a[href*="/friends/center/"])
 facebook.com##div[role="article"]:has(div[class] > div[style] a[href*="facebook.com/help/"])
 facebook.com##div[role="article"]:has(div[data-ft*="ego_id"]:has(a[href*="?ref=psym_feed"]))
 facebook.com##div[role="article"]:has(iframe[src*="/xti.php?"])
-facebook.com##div[role="article"]:has(span:has-text(/Sponsored/))
+facebook.com##div[role="article"]:has(span:has-text(/Sponzorované/))
 !
 ! Hide zuckestions items pane to enforce Facebook fill up their zuckestions, but in fact you see none of any zuckestions at all!
 m.facebook.com,mtouch.facebook.com,touch.facebook.com###friends_center_main div[data-pymk-id]
