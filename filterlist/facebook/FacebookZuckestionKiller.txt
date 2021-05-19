@@ -14,19 +14,6 @@
 !         remove something that really need.
 ! Note 2: Inspired from report on https://github.com/collinbarrett/FilterLists/issues/282
 ! - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - !
-! Proactive outbound tracking prevention, to prevent Facebook tracking you outside while click and open shared URL (see #19)
-! Remark: If you're seeing yellow warning page, try click the magnifier icon to expand all parameters for getting real URL!
-||*&fbclid=$document,xhr,important,domain=~TRACKING-FBCLID_PARAMS
-||*?fbclid=$document,xhr,important,domain=~TRACKING-FBCLID_PARAMS
-||facebook.com/flx/*&h=$document,xhr,important,domain=~TRACKING-OUTGOING_WARN_UNWANTED_H_PARAM
-||facebook.com/flx/*?h=$document,xhr,important,domain=~TRACKING-OUTGOING_WARN_UNWANTED_H_PARAM
-||facebook.com/l.php$document,xhr,important,domain=~TRACKING-OUTGOING_URL_REDIRECT_PHP
-||l.facebook.com$document,xhr,important,domain=~TRACKING-OUTGOING_URL_REDIRECT_DOMAIN
-||l.messenger.com$document,xhr,important,domain=~TRACKING-OUTGOING_URL_REDIRECT_DOMAIN
-||lm.facebook.com$document,xhr,important,domain=~TRACKING-OUTGOING_URL_REDIRECT_DOMAIN
-||lm.messenger.com$document,xhr,important,domain=~TRACKING-OUTGOING_URL_REDIRECT_DOMAIN
-||messenger.com/l.php$document,xhr,important,domain=~TRACKING-OUTGOING_URL_REDIRECT_PHP
-!
 ! Page blocking
 ||facebook.com/gaming/browse/games/?s=SUGGESTED$important
 ||facebook.com/gaming/browse/games/?*&s=SUGGESTED$important
